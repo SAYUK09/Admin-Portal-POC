@@ -1,0 +1,60 @@
+.ReviewPortfolioCardParent {
+  background-color: var(--dark-grey);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.applicationNo {
+  color: var(--light-blue);
+  font-weight: bold;
+}
+
+.studentDetails {
+  font-size: 1.2rem;
+}
+
+.revisionInputDiv {
+  padding: 0 1rem;
+}
+
+.revisionText {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  background-color: var(--medium-grey);
+  border-radius: 0.5rem;
+  color: white;
+  height: 15vh;
+  border: none;
+}
+
+.buttonsDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsDiv button {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.secondaryBtn {
+  border: 2px solid var(--light-blue);
+  background-color: transparent;
+  color: var(--light-blue);
+}
+
+.buttonsDiv {
+  margin: 1rem 0;
+}
+
+.primaryBtn {
+  border: 2px solid var(--light-blue);
+  background-color: var(--light-blue);
+  color: var(--black-color);
+}

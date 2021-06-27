@@ -1,0 +1,10 @@
+.ReviewPortfoliosParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--dark-grey);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  color: white;
+}
