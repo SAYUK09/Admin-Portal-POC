@@ -1,0 +1,21 @@
+.navbarParent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: var(--dark-grey);
+}
+
+.navbarBody {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+  color: var(--light-blue);
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: contain;
+}
