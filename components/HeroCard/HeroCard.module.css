@@ -1,0 +1,36 @@
+.HeroCardParent {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  background: var(--dark-grey);
+  border-radius: 8px;
+  margin: 2rem 0;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.HeroCardDescrip {
+  flex: 1;
+  color: var(--light-blue);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.HeroCardDescrip p {
+  color: var(--text-color);
+  font-weight: 400;
+  margin-top: 0.9rem;
+  max-width: 500px;
+  text-transform: none;
+}
+
+.HeroCardImgDiv {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
