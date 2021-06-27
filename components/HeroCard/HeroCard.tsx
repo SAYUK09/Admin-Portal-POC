@@ -9,8 +9,10 @@ const HeroCard = () => {
       <div className={styles.HeroCardDescrip}>
         <h1>Hi Tanay! 👋</h1>
         <p>
-          Thank you for trusting us to start your programming journey. We are
-          sure you are going to love it.
+          Thank you for your time! <br />
+          You have reviewed{" "}
+          <span className={styles.reviewedPortfolioNo}>15</span> portfolio till
+          now. Ready for more ?
         </p>
       </div>
       <div className={styles.HeroCardImgDiv}>
